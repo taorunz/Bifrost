@@ -1,0 +1,3 @@
+## USAGE
+
+VQE experiments can be run via vqe.py. QNN experiments can be run via tq_qnn.py, but they require installation of TorchQuantum which must be done manually from https://github.com/mit-han-lab/torchquantum/tree/main. All util code related to TorchQuantum is commented out to allow VQE to be run without a TorchQuantum installation, so please also make sure to uncomment out the related code in the utils.py file before attempting QNN experiments.

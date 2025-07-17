@@ -21,8 +21,8 @@ from qiskit.transpiler.layout import Layout
 from qiskit_nature.second_q.mappers import JordanWignerMapper
 from qiskit_nature.second_q.drivers import PySCFDriver
 
-# import torchquantum as tq
-# from torchquantum.torchquantum.dataset import MNIST, Vowel
+import torchquantum as tq
+from torchquantum.torchquantum.dataset import MNIST, Vowel
 
 from transpiler import modified_transpile
 from learning import train, test

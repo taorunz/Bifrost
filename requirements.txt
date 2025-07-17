@@ -121,7 +121,6 @@ torch==2.7.1+cpu
 torchaudio==2.7.1+cpu
 torchdiffeq==0.2.5
 torchpack==0.3.1
--e git+https://github.com/mit-han-lab/torchquantum.git@57f19172981b8e1d360038a62bec53e157f3a57d#egg=torchquantum
 torchvision==0.22.1+cpu
 tornado==6.5.1
 tqdm==4.67.1
